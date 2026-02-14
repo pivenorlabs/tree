@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Pivenor Labs - Web development, Mobile Apps, Automations, Ads & AI/ML solutions">
+    <meta name="theme-color" content="#f5f5f7">
+    <title>Pivenor Labs</title>
+    <link rel="icon" href="assets/pivenor-icon-32.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://unpkg.com/feather-icons"></script>
+</head>
+<body class="light-mode">
+
+<div class="container">
+
+    <!-- Header -->
+    <header class="header">
+        <img src="assets/pivenor-logo.svg" alt="Pivenor Labs" class="logo">
+        <div class="header-actions">
+            <button class="theme-toggle" id="themeToggle" aria-label="Toggle theme">
+                <i data-feather="sun" class="sun-icon"></i>
+                <i data-feather="moon" class="moon-icon"></i>
+            </button>
+            <span class="status"><i class="fas fa-circle"></i> Available</span>
+        </div>
+    </header>
+
+    <!-- Title -->
+    <div class="brand-title">
+        <h1>Pivenor Labs</h1>
+    </div>
+
+    <!-- Tagline -->
+    <div class="tagline">
+        <h2>Build. Automate. Scale.</h2>
+        <p>Your growth technology partner</p>
+    </div>
+
+    <!-- Services -->
+    <div class="services">
+        <div class="service-tag">
+            <i class="fas fa-code"></i>
+            <span>Web Dev</span>
+        </div>
+        <div class="service-tag">
+            <i class="fas fa-mobile-alt"></i>
+            <span>Mobile Apps</span>
+        </div>
+        <div class="service-tag">
+            <i class="fas fa-robot"></i>
+            <span>Automation</span>
+        </div>
+        <div class="service-tag">
+            <i class="fas fa-bullhorn"></i>
+            <span>Ads</span>
+        </div>
+        <div class="service-tag">
+            <i class="fas fa-brain"></i>
+            <span>AI/ML</span>
+        </div>
+    </div>
+
+    <!-- Social Links (moved below services) -->
+    <div class="social-grid">
+        <a href="tel:+919381891353" class="social-card">
+            <i class="fas fa-phone"></i>
+            <span>Call</span>
+        </a>
+        <a href="https://www.instagram.com/pivenorlabs" class="social-card" target="_blank" rel="noopener">
+            <i class="fab fa-instagram"></i>
+            <span>Instagram</span>
+        </a>
+        <a href="https://www.linkedin.com/company/pivenorlabs" class="social-card" target="_blank" rel="noopener">
+            <i class="fab fa-linkedin-in"></i>
+            <span>LinkedIn</span>
+        </a>
+    </div>
+
+    <!-- Main Links -->
+    <nav class="links">
+        <a href="https://pivenorlabs.vercel.app/" class="link-card" target="_blank" rel="noopener">
+            <div class="link-icon">
+                <i class="fas fa-globe"></i>
+            </div>
+            <span class="link-title">Website</span>
+            <i data-feather="chevron-right" class="link-arrow"></i>
+        </a>
+
+        <a href="https://pivenorlabs.vercel.app/work.html" class="link-card" target="_blank" rel="noopener">
+            <div class="link-icon">
+                <i class="fas fa-briefcase"></i>
+            </div>
+            <span class="link-title">See our work</span>
+            <i data-feather="chevron-right" class="link-arrow"></i>
+        </a>
+
+        <a href="https://wa.me/919381891353" class="link-card whatsapp-link" target="_blank" rel="noopener">
+            <div class="link-icon whatsapp">
+                <i class="fab fa-whatsapp"></i>
+            </div>
+            <span class="link-title">WhatsApp Chat</span>
+            <i data-feather="chevron-right" class="link-arrow"></i>
+        </a>
+    </nav>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p id="year"></p>
+    </footer>
+
+</div>
+
+<script src="script.js"></script>
+<script>feather.replace();</script>
+</body>
+</html>
